@@ -4,15 +4,17 @@ import List from "../../components/List/List"
 import "./home.scss"
 
 
-export default function Home() {
+const Home = () => {
     return (
-        <div className="home">
-            <Navbar />
-            <Feature />
-            <List />
-            <List />
-            <List />
-            <List />
-        </div>
-    )
-}
+      <div className="home">
+        <Navbar />
+        <Feature/>
+        <List/>
+        <List/>
+        <List/>
+        <List/>
+      </div>
+    );
+  };
+  
+  export default Home;
